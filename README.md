@@ -10,7 +10,10 @@
 
 ---
 ### 2019.03.14 현재 안 되는 부분
+
 1. 09_nltk_tutorial 에서 worker를 잘 인식하지 못하는 지 분산하여 training이 되지 않는다
+    - AttributeError: Can't get attribute '_apply_df' on <module '__main__' (built-in)> 라는 에러가 프롬프트에 계속 뜬다
+    
 2. 12_tf-idf_k-fold 에서 XGBoost 부분을 해결해야 한다. 아마 윈도우 환경에서 설치가 제대로 되지 않은걸로 추정 (해결)
     http://quantfactory.blogspot.com/2017/04/xgboost.html 참고하며 해결 중
     - Git Bash를 열어 XGBoost를 저장할 경로에 다음 명령어를 입력
